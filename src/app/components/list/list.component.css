@@ -1,0 +1,18 @@
+.btn-edit{
+    cursor: pointer;
+    color: #0000CD;
+}
+.btn-delete{
+    color: #FF3232;
+    cursor: pointer;
+}
+.btn-add{
+    cursor: pointer;
+}
+.add-container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 10px;
+}

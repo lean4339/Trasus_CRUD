@@ -1,0 +1,27 @@
+<mat-card>
+    <mat-card-content class="form">
+    
+
+        <h1>Bienvenido al perfil del usuario {{user?.nombre}}</h1>
+        <form class="form" [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+          <mat-label>Nombre</mat-label>
+          <input formControlName="nombre" name="nombre" matInput>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input formControlName="email" name="email" matInput>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Rol</mat-label>
+            <mat-select formControlName="rol" name="rol">
+              <mat-option value="admin">Admin</mat-option>
+              <mat-option value="user">User</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <div>
+            <button type="submit" mat-button color="primary">Guardar</button>
+          </div>
+        </form>
+    </mat-card-content>
+</mat-card>

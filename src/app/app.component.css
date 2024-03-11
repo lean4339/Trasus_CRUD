@@ -1,0 +1,14 @@
+mat-toolbar {
+    color: white;
+  }
+a{
+    margin:  10px;
+    text-decoration: none;
+    color: inherit;
+}
+.container-principal{
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+}
